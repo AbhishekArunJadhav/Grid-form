@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <h1>Create Employee</h1>
+    <p>Employee List</p>
+    <div class="main">
+        <div id="box1" class="item">BASIC DETAIL
+            <div id="form1">
+                <form action="none">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="first_name">Employee id</label>
+                            </td>
+                            <td>
+                                <input type="text" name="first_name" maxlength="50" size="50" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="full_name">Full Name</label>
+                            </td>
+                            <td>
+                                <input type="text" name="full_name" maxlength="60" size="50" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="gender">Gender</label>
+                            </td>
+                            <td>
+                                <select name="gender" id="gender">
+                                    <option value="" disabled selected>Gender</option>
+                                    <option value="Male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="employee_type">Employee Type</label>
+                            </td>
+                            <td>
+                                <select name="Employee_type" id="Employee_type">
+                                    <option value="" disabled selected>Select Employee Type</option>
+                                    <option value="permanent">Permanent</option>
+                                    <option value="Male">Trainee</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Email</label>
+                            </td>
+                            <td>
+                                <input type="email" name="email" maxlength="60" size="50">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="number">Mobile</label>
+                            </td>
+                            <td>
+                                <input type="tel" name="number" maxlength="12" size="50" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="econtact">Emergency Contact Person</label>
+                            </td>
+                            <td>
+                                <input type="text" name="econtact" maxlength="50" size="50">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="econtactno">Emergency Contact Number</label>
+                            </td>
+                            <td>
+                                <input type="tel" name="econtactno" maxlength="50" size="50">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="status">Status</label>
+                            </td>
+                            <td>
+                                <select name="staus" id="status" width="50">
+                                    <option value="" disabled selected>Status</option>
+                                    <option value="active">Active</option>
+                                    <option value="inactive">Inactive</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="bu_name">BU Name</label>
+                            </td>
+                            <td>
+                                <input type="text" name="bu_name" maxlength="50" size="50">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="sbu">SBU</label>
+                            </td>
+                            <td>
+                                <input type="text" name="sbu" maxlength="50" size="50">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="grade"> Grade</label>
+                            </td>
+                            <td>
+                                <input type="text" name="Grade" maxlength="1" size="50">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div id="box2" class="item">HOME ADDRESS
+            <div id="form3">
+                <form action="none">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="address">Address</label>
+                            </td>
+                            <td>
+                                <input type="text" name="first_name" maxlength="50" size="50" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="latitude">Latitude</label>
+                            </td>
+                            <td>
+                                <input type="text" name="latitude" maxlength="50" size="50">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="longitude">Longitude</label>
+                            </td>
+                            <td>
+                                <input type="text" name="longitude" maxlength="50" size="50">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div id="box3" class="item">PICKUP POINT FROM HOME
+            <div id="form4">
+                <form action="none">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="residential_area">Residential Area</label>
+                            </td>
+                            <td>
+                                <select name="residential_area" id="cresidential_area" required>
+                                    <option value="" disabled selected>Select Residential Area</option>
+                                    <option value="Mumbai">Mumbai</option>
+                                    <option value="pune">Pune</option>
+                                    <option value="delhi">Delhi</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="Locality">Locality</label>
+                            </td>
+                            <td>
+                                <select name="Locality" id="Locality" required>
+                                    <option value="" disabled selected>Select Locality</option>
+                                    <option value="Mumbai">Mumbai</option>
+                                    <option value="pune">Pune</option>
+                                    <option value="delhi">Delhi</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="Nodal_Way_Point">Nodal Way Point</label>
+                            </td>
+                            <td>
+                                <select name="Nodal_Way_Point" id="Nodal_Way_Point" required>
+                                    <option value="" disabled selected>Select Nodal Way Point</option>
+                                    <option value="Mumbai">Mumbai</option>
+                                    <option value="pune">Pune</option>
+                                    <option value="delhi">Delhi</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="door-door_way_point">Door-door Way Point</label>
+                            </td>
+                            <td>
+                                <select name="door-door_way_point" id="door-door_way_point" required>
+                                    <option value="" disabled selected>Select Door-door Way Point</option>
+                                    <option value="Mumbai">Mumbai</option>
+                                    <option value="pune">Pune</option>
+                                    <option value="delhi">Delhi</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="Nodal_Way_Point2">Nodal Way Point 2</label>
+                            </td>
+                            <td>
+                                <select name="Nodal_Way_Point2" id="Nodal_Way_Point2">
+                                    <option value="" disabled selected>Select Nodal Way Point2</option>
+                                    <option value="Mumbai">Mumbai</option>
+                                    <option value="pune">Pune</option>
+                                    <option value="delhi">Delhi</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div id="box4" class="item">BRANCH OFFICE
+            <div id="form2">
+                <form action="none">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="city">City</label>
+                            </td>
+                            <td>
+                                <select name="city" id="city">
+                                    <option value="" disabled selected>Select city</option>
+                                    <option value="Mumbai">Mumbai</option>
+                                    <option value="pune">Pune</option>
+                                    <option value="delhi">Delhi</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="it_park">Office Area/IT Park</label>
+                            </td>
+                            <td>
+                                <select name="it_park" id="it_park">
+                                    <option value="" disabled selected>Select Office Area/IT Park</option>
+                                    <option value="Mumbai">Mumbai IT park</option>
+                                    <option value="pune">Pune IT park</option>
+                                    <option value="delhi">Delhi IT Park</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="branch_office">Branch Office</label>
+                            </td>
+                            <td>
+                                <select name="branch_office" id="branch_office">
+                                    <option value="" disabled selected>Select Branch Office</option>
+                                    <option value="Mumbai">Mumbai Branch</option>
+                                    <option value="pune">Pune Branch</option>
+                                    <option value="delhi">Delhi Branch</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div id="box5" class="item">MANAGER DETAILS
+            <div id="form5">
+                <form action="none">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="employee_manager">Employee Manager</label>
+                            </td>
+                            <td>
+                                <input type="text" name="first_name" maxlength="50" size="50">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="project">Project</label>
+                            </td>
+                            <td>
+                                <input type="text" name="project" maxlength="50" size="50">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="project_id">Project ID</label>
+                            </td>
+                            <td>
+                                <input type="text" name="project_id" maxlength="50" size="50">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

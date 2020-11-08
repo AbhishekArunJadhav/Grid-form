@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(48, 48, 48);
+}
+
+.main {
+    display: grid;
+    height: 800px;
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 10px;
+    
+}
+h1{
+    background-color: white;
+    color: orange;
+    padding: 10px;
+}
+
+p{
+    color: white;
+}
+.main > div{
+    background: white;
+    padding: 10px 5px;
+}
+
+.item{
+    border-radius: 5px;
+}
+#box1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#form1{
+    padding: 5px;
+}
+
+td{
+    padding: 5px 0px 5px 20px;
+}
+
+select,input{
+    padding: 10px;
+}
+
